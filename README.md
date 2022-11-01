@@ -26,7 +26,7 @@ Both of these sections have a deployment settings check box. This indicates that
 
 An example of an Azure app service configuration window is shown below.
 
-:::image type="content" source="App configuration.png" alt-text="A picture that displays the window of azure app service configuration":::
+:::image type="content" source="App configuration.png" alt-text="A picture that displays the window of azure app service configuration.":::
 
 ### Appsettings.json
 
@@ -89,7 +89,7 @@ The default configuration comes with .NET applications. It contains configuratio
 > [!NOTE]
 > The default configurations reads from appsettings.json then appsettings.{environment}.json.So if your applications makes use of the default configuration, it has been configured to read from the azure app service configuration when deployed.
 
-:::image type="content" source="configuration.png" alt-text="An image that displays how to use default configuration":::
+:::image type="content" source="configuration.png" alt-text="An image that displays how to use default configuration.":::
 
 ## Using Configuration Builder
 
@@ -98,7 +98,7 @@ The configuration builder provides a more flexible way of reading configuration 
 > [!TIP]
 > The environment can either be development or production.
 
-:::image type="content" source="Configuration builder.png" alt-text="An image that display how to use configuration builder and reloadOnChange":::
+:::image type="content" source="Configuration builder.png" alt-text="An image that display how to use configuration builder and reloadOnChange.":::
 
 > [!IMPORTANT]
 > reloadOnChange reloads the appsettings after the application starts. So if azure app setting overrides the appsetting and reloadOnChange is set to false. Your application won't see the new changes.
