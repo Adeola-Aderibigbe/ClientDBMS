@@ -78,7 +78,7 @@ So now we are a little bit comfortable with the environment, we can proceed to i
 > [!IMPORTANT]
 > Check that the names of your configuration values in appsettings.json match the names in your Azure app configuration.
 
-This simply means that when you deploy to an Azure web service, the azure app configuration will take precedence over your app settings.
+This simply means that when you deploy to an Azure web service, the azure app configuration will override your app settings.
 
 ## Using Default Configuration
 
