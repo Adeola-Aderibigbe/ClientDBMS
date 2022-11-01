@@ -1,4 +1,4 @@
-# **How to Read from Azure App Service Configuration in .NET Applications**
+# **How to Read Azure App Service Configuration in .NET Applications**
 
 ## Overview
 
