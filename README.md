@@ -102,7 +102,7 @@ The configuration builder provides a more flexible way of reading configuration 
 > [!TIP]
 > The environment can either be development or production.
 
-:::image type="content" source="Configuration builder.png" alt-text="An image that display how to use configuration builder and reloadOnChange.":::
+:::image type="content" source="Configuration builder.png" alt-text="An image that displays how to use configuration builder and reloadOnChange.":::
 
 > [!IMPORTANT]
 > reloadOnChange reloads the appsettings after the application starts. So if azure app setting overrides the appsetting and reloadOnChange is set to false. Your application won't see the new changes.
