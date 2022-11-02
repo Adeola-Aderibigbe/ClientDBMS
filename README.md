@@ -41,7 +41,10 @@ Depending on our hosting environment, we have multiple appsettings.json files. W
     }
   },
   "AllowedHosts": "*",
-  "ConnectionStrings:DefaultConnection": "Data Source=(localdb)\\ProjectModels;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+  "ConnectionStrings:DefaultConnection": "Data Source=(localdb)\\ProjectModels;
+  Initial Catalog=master;Integrated Security=True;
+  Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;
+  ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
   "Message": {
     "Chat": "Hello son"
   }
@@ -62,7 +65,10 @@ Depending on our hosting environment, we have multiple appsettings.json files. W
 
 `{
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=_CHANGE_ME;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;
+    Database=_CHANGE_ME;
+    Trusted_Connection=True;
+    MultipleActiveResultSets=true"
   }
 }`
 
